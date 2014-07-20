@@ -1,23 +1,20 @@
-/* @override 
-	http://dev.mennstudio.com/reabreab/wp-content/themes/reabreab_s/style.css?ver=3.9.1
-	http://dev.mennstudio.com/reabreab/wp-content/themes/reabreab/style.css?ver=3.9.1 */
 /*
 Theme Name: Reab Reab
-Theme URI: http://underscores.me/
+Theme URI: https://github.com/MennStudio/ReabReab
 Author: MennStudio
-Author URI: http://www.mennstudio.com/
+Author URI: http://www.MennStudio.com/
 Description: For simple web pages (with Thai font)
 Version: 0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: reabreab
 Domain Path: /languages/
-Tags:
+Tags: light, one-column, featured-images
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
- Reab Reab S is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Reab Reab is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
 
 Resetting and rebuilding styles have been helped along thanks to the fine work of
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
@@ -350,15 +347,15 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+
 }
 a:visited {
-	color: purple;
+
 }
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+
 }
 
 /*--------------------------------------------------------------
@@ -698,7 +695,10 @@ object {
 
 
 
+
+
 /* ========== Begin Custom CSS เริ่มใส่ CSS จากบรรทัดนี้นะ ========== */
+
 .cf:before,
 .cf:after {
     content: " ";
@@ -756,19 +756,19 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: #00b9b6;
+	opacity: 0.8;
 }
 a:active {
-	color: #006462;
+	opacity: 0.6;
 }
 a:visited {
-	color: #008e8c;
+
 }
 ul, ol {
 	margin: 0 0 1.5em 1.1em;
 }
 .entry-content a:visited {
-	color: #006462;
+
 }
 
 #page {
