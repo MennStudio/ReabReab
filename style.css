@@ -1002,6 +1002,9 @@ body.single .entry-meta {
 }
 
 @media all and (min-width: 768px) {
+	#main {
+		padding: 0 30px;
+	}
 	.widget {
 		width:auto;
 		float: none;
